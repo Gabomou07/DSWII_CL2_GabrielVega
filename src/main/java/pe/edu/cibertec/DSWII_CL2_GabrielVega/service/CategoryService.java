@@ -12,7 +12,7 @@ import java.util.List;
 public class CategoryService {
 
     private CategoryRepository categoryRepository;
-
+//Comentario
     public List<Category> listarCategorias(){
         return categoryRepository.findAll();
     }
